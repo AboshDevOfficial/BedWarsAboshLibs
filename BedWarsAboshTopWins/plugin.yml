@@ -1,0 +1,13 @@
+name: BWWinsAbosh
+author: abosh
+description: "Top players plugin for BedwarsAbosh."
+main: wins\lb\Main
+version: 1.0.0
+api: 5.0.0
+commands:
+  setbww:
+    description: "Set the coordinates of BedwarsAbosh LeaderBoard in your location"
+    permission: setlvlb.perm
+permissions:
+  setlvlb.perm:
+    default: op

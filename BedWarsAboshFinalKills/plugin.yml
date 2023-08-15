@@ -1,0 +1,13 @@
+name: BWFKillsAbosh
+author: abosh
+description: "Top players plugin for BedwarsAbosh Final kills."
+main: kills\lb\Main
+version: 1.0.0
+api: 5.0.0
+commands:
+  setbwfkills:
+    description: "Set the coordinates of the BedwarsAbosh Final kills LeaderBoard in your location"
+    permission: setlvlb.perm
+permissions:
+  setlvlb.perm:
+    default: op
